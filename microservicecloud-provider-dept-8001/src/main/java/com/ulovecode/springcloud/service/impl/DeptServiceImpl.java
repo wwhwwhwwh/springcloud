@@ -9,7 +9,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
-
+/**
+ * @author JackZhu
+ * @since 2018/05/02
+ */
 @Service
 public class DeptServiceImpl implements DeptService
 {

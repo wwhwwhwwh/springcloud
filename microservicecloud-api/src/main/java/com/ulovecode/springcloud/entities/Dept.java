@@ -9,7 +9,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 
-
+/**
+ * @author JackZhu
+ * @since 2018/05/02
+ */
 @NoArgsConstructor
 //@AllArgsConstructor
 @Data

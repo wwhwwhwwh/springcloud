@@ -13,7 +13,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-
+/**
+ * @author JackZhu
+ * @since 2018/05/02
+ */
 @RestController
 public class DeptController
 {
