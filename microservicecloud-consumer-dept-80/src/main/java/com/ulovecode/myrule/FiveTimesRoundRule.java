@@ -80,7 +80,6 @@ public class FiveTimesRoundRule extends AbstractLoadBalancerRule {
 
     private int incrementAndGetModulo(int modulo) {
         for (; ; ) {
-
             if (toTalCounter.get() < 5) {
                 int currenttoTal = toTalCounter.get();
                 int next = (currenttoTal + 1) % 6;

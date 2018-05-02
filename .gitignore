@@ -1,3 +1,20 @@
 # Created by .ignore support plugin (hsz.mobi)
 *.iml
 */*.iml
+.idea/
+microservicecloud-api/src/test/
+microservicecloud-api/target/
+microservicecloud-consumer-dept-80/src/test/
+microservicecloud-consumer-dept-80/target/
+microservicecloud-eureka-7001/src/test/
+microservicecloud-eureka-7001/target/
+microservicecloud-eureka-7002/src/test/
+microservicecloud-eureka-7002/target/
+microservicecloud-eureka-7003/src/test/
+microservicecloud-eureka-7003/target/
+microservicecloud-provider-dept-8001/src/test/
+microservicecloud-provider-dept-8001/target/
+microservicecloud-provider-dept-8002/src/test/
+microservicecloud-provider-dept-8002/target/
+microservicecloud-provider-dept-8003/src/test/
+microservicecloud-provider-dept-8003/target/
