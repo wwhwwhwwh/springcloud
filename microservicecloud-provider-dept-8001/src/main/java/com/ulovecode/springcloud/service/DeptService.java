@@ -4,7 +4,10 @@ import com.ulovecode.springcloud.entities.Dept;
 
 import java.util.List;
 
-
+/**
+ * @author JackZhu
+ * @since 2018/05/02
+ */
 public interface DeptService
 {
 	public boolean add(Dept dept);
