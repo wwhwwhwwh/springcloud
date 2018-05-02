@@ -1,5 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
-#*.iml
+*.iml
 .idea/
 microservicecloud-api/src/test/
 microservicecloud-api/target/
@@ -17,4 +17,3 @@ microservicecloud-provider-dept-8002/src/test/
 microservicecloud-provider-dept-8002/target/
 microservicecloud-provider-dept-8003/src/test/
 microservicecloud-provider-dept-8003/target/
-/springcloud.iml
