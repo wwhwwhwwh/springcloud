@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @since 2018/05/03
  *
  */
-@FeignClient(value = "MICROSERVICECLOUD-DEPT")
-//@FeignClient(value = "MICROSERVICECLOUD-DEPT",fallbackFactory=DeptClientServiceFallbackFactory.class)
+//@FeignClient(value = "MICROSERVICECLOUD-DEPT")
+@FeignClient(value = "MICROSERVICECLOUD-DEPT",fallbackFactory=DeptClientServiceFallbackFactory.class)
 public interface DeptClientService
 {
 	@RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)
