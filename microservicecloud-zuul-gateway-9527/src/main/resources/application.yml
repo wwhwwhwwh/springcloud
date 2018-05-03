@@ -16,9 +16,9 @@ eureka:
  
 zuul: 
   #ignored-services: microservicecloud-dept
-  prefix: /ulovecode
-  ignored-services: "*"
-  routes: 
+  prefix: /ulovecode   #设置同意前缀
+  ignored-services: "*"  #设置所有为服务源地址隐藏
+  routes:
     mydept.serviceId: microservicecloud-dept
     mydept.path: /mydept/**
  
