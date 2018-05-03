@@ -8,6 +8,12 @@ import org.springframework.stereotype.Component;
 
 import feign.hystrix.FallbackFactory;
 
+/**
+ *
+ * @author JackZhu
+ * @since 2018/05/03
+ *
+ */
 @Component // 不要忘记添加，不要忘记添加
 public class DeptClientServiceFallbackFactory implements FallbackFactory<DeptClientService>
 {
